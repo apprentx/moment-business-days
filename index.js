@@ -264,8 +264,4 @@ moment.fn.monthNaturalWeeks = function (fromToday) {
   return weeksArr;
 };
 
-// if (typeof module !== 'undefined' && module.exports) {
-//   module.exports = moment;
-// }
-
 export default moment
