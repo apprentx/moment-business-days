@@ -1,4 +1,4 @@
-import moment from "moment"
+import moment from "moment";
 
 moment.fn.isHoliday = function () {
   var locale = this.localeData();
@@ -264,4 +264,4 @@ moment.fn.monthNaturalWeeks = function (fromToday) {
   return weeksArr;
 };
 
-export default moment
+export default moment;
